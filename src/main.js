@@ -15,7 +15,7 @@ let currentPage = 1;
 let currentQuery = '';
 let totalHits = 0;
 
-const searchForm = document.querySelector('#search-form');
+const searchForm = document.querySelector('#form');
 const loadMoreBtn = document.querySelector('.load-more');
 
 searchForm.addEventListener('submit', onSearch);
